@@ -1,0 +1,34 @@
+[window]
+dynamic_title = false
+padding = { x = 10, y = 10 }
+
+[font]
+size = 13
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+offset = { x = 1, y = 4 }
+
+[colors.primary]
+background = "#000000"
+
+[cursor]
+unfocused_hollow = false
+
+[mouse]
+bindings = [
+    { mouse = "Right", action = "Copy" },
+]
+
+[keyboard]
+bindings = [
+    { key = "Up", mods = "Control", action = "ScrollLineUp", mode = "~AppCursor | ~AppKeypad" },
+    { key = "Down", mods = "Control", action = "ScrollLineDown", mode = "~AppCursor | ~AppKeypad" },
+    { key = "Up", mods = "Shift", action = "ScrollPageUp", mode = "~AppCursor | ~AppKeypad" },
+    { key = "Down", mods = "Shift", action = "ScrollPageDown", mode = "~AppCursor | ~AppKeypad" },
+    { key = "Home", mods = "Control", action = "ScrollToTop", mode = "~AppCursor | ~AppKeypad" },
+    { key = "End", mods = "Control", action = "ScrollToBottom", mode = "~AppCursor | ~AppKeypad" },
+    { key = "Back", mods = "Control", chars = "\u0017" },
+    { key = "f", mods = "Control", action = "SearchForward" },
+    { key = "v", mods = "Control", action = "Paste" },
+]

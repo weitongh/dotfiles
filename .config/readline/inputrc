@@ -1,0 +1,5 @@
+set completion-ignore-case on
+
+"\C-i": menu-complete
+"\e[Z": menu-complete-backward
+"\C-@": possible-completions
