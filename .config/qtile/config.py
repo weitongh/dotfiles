@@ -67,7 +67,7 @@ screens = [
             widget.Spacer(length=10),
             widget.GroupBox(
                 padding_x = 6,
-                borderwidth = 4,
+                borderwidth = 3,
                 toggle = False,
                 disable_drag = True,
                 use_mouse_wheel = False,
@@ -98,8 +98,8 @@ screens = [
 ]
 
 layouts = [
-    layout.MonadTall(margin=8, border_width=3, border_focus=accent_color, new_client_position='bottom'),
-    layout.Max(margin=8, border_width=3, border_focus=accent_color),
+    layout.MonadTall(margin=8, border_width=2, border_focus=accent_color, new_client_position='bottom'),
+    layout.Max(margin=8, border_width=2, border_focus=accent_color),
 ]
 
 floating_layout = layout.Floating(
