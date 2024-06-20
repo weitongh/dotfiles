@@ -19,7 +19,5 @@ opt.smartcase = true
 
 opt.clipboard = "unnamedplus"
 
-opt.swapfile = false
-
 vim.g.netrw_liststyle = 3
 vim.g.netrw_dirhistmax = 0
