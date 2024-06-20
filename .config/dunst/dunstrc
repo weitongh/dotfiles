@@ -77,12 +77,12 @@
     ignore_dbusclose = false
 
 [urgency_low]
-    background = "#000000"
+    background = "#0c0c0c"
     foreground = "#ffffff"
     timeout = 10
 
 [urgency_normal]
-    background = "#000000"
+    background = "#0c0c0c"
     foreground = "#ffffff"
     timeout = 10
     override_pause_level = 30

@@ -10,7 +10,7 @@ italic = { family = "Hack Nerd Font", style = "Italic" }
 offset = { x = 1, y = 4 }
 
 [colors.primary]
-background = "#000000"
+background = "#0c0c0c"
 
 [cursor]
 unfocused_hollow = false

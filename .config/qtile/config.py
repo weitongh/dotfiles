@@ -90,6 +90,7 @@ screens = [
             widget.Spacer(length=16),
             ],
             size=50,
+            background='#0c0c0c',
         ),
         wallpaper='~/.config/qtile/wallpaper',
         wallpaper_mode='fill',
