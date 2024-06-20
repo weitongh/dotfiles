@@ -18,7 +18,7 @@ terminal = 'alacritty'
 screenshot = 'flameshot gui'
 
 keys = [
-    Key([mod], 'q', lazy.window.kill()),
+    Key([mod], 'c', lazy.window.kill()),
     Key([mod], 'f', lazy.next_layout()),
     Key([mod], 'm', lazy.window.toggle_minimize()),
     Key([mod], 'return', lazy.spawn(terminal)),
@@ -28,15 +28,15 @@ keys = [
     Key([mod], 'down', lazy.layout.down()),
     Key([mod], 'left', lazy.layout.left()),
     Key([mod], 'right', lazy.layout.right()),
-    Key([mod, ctrl], 'up', lazy.layout.shuffle_up()),
-    Key([mod, ctrl], 'down', lazy.layout.shuffle_down()),
-    Key([mod, ctrl], 'left', lazy.layout.swap_left()),
-    Key([mod, ctrl], 'right', lazy.layout.swap_right()),
-    Key([mod, shift], 'left', lazy.layout.shrink_main()),
-    Key([mod, shift], 'right', lazy.layout.grow_main()),
+    Key([mod, ctrl], 'left', lazy.layout.shrink_main()),
+    Key([mod, ctrl], 'right', lazy.layout.grow_main()),
+    Key([mod, shift], 'up', lazy.layout.shuffle_up()),
+    Key([mod, shift], 'down', lazy.layout.shuffle_down()),
+    Key([mod, shift], 'left', lazy.layout.swap_left()),
+    Key([mod, shift], 'right', lazy.layout.swap_right()),
+
     Key([alt, ctrl], 'left', lazy.screen.prev_group()),
     Key([alt, ctrl], 'right', lazy.screen.next_group()),
-
     Key([alt, ctrl], 'a', lazy.spawn(screenshot)),
 
     Key([mod, ctrl], 'r', lazy.reload_config()),
