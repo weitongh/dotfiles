@@ -16,6 +16,8 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 
 export EDITOR="nvim"
+export HISTCONTROL=ignoredups
+
 export https_proxy="http://127.0.0.1:7890"
 export http_proxy="http://127.0.0.1:7890"
 export all_proxy="socks5://127.0.0.1:7890"
