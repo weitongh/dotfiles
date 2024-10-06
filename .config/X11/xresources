@@ -2,5 +2,5 @@ Xft.dpi: 120
 Nsxiv.bar.font: xft:Hack Nerd Font:size=12
 alttab.font: xft:Hack Nerd Font:size=12
 
-*.background: #0c0c0c
-*.foreground: #ffffff
+*.background: #010409
+*.foreground: #f0f3f6

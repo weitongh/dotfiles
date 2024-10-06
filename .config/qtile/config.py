@@ -6,7 +6,7 @@ from libqtile.lazy import lazy
 
 
 wmname = 'Qtile'
-accent_color = '#61AAB0'
+accent_color = '#9399b2'
 follow_mouse_focus = False
 focus_on_window_activation = 'focus'
 
@@ -90,7 +90,7 @@ screens = [
             widget.Spacer(length=16),
             ],
             size=50,
-            background='#0c0c0c',
+            background='#010409',
         ),
         wallpaper='~/.config/qtile/wallpaper',
         wallpaper_mode='fill',

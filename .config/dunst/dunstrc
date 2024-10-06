@@ -9,9 +9,9 @@
 
     ### Display ###
 
-    transparency = 10
+    transparency = 0
     frame_width = 1
-    frame_color = "#61AAB0"
+    frame_color = "#9399b2"
     separator_height = 1
     separator_color = frame
     corner_radius = 0
@@ -77,13 +77,13 @@
     ignore_dbusclose = false
 
 [urgency_low]
-    background = "#0c0c0c"
-    foreground = "#ffffff"
+    background = "#010409"
+    foreground = "#f0f3f6"
     timeout = 10
 
 [urgency_normal]
-    background = "#0c0c0c"
-    foreground = "#ffffff"
+    background = "#010409"
+    foreground = "#f0f3f6"
     timeout = 10
     override_pause_level = 30
 

@@ -9,9 +9,6 @@ bold = { family = "Hack Nerd Font", style = "Bold" }
 italic = { family = "Hack Nerd Font", style = "Italic" }
 offset = { x = 1, y = 4 }
 
-[colors.primary]
-background = "#0c0c0c"
-
 [cursor]
 unfocused_hollow = false
 
@@ -32,3 +29,27 @@ bindings = [
     { key = "f", mods = "Control", action = "SearchForward" },
     { key = "v", mods = "Control", action = "Paste" },
 ]
+
+[colors.primary]
+background = "#010409"
+foreground = "#f0f3f6"
+
+[colors.normal]
+black   = "#0a0c10"
+red     = "#ff9492"
+green   = "#26cd4d"
+yellow  = "#f0b72f"
+blue    = "#71b7ff"
+magenta = "#cb9eff"
+cyan    = "#76e3ea"
+white   = "#d9dee3"
+
+[colors.bright]
+black   = "#272b33"
+red     = "#ffb1af"
+green   = "#4ae168"
+yellow  = "#f7c843"
+blue    = "#91cbff"
+magenta = "#dbb7ff"
+cyan    = "#b3f0ff"
+white   = "#d9dee3"
